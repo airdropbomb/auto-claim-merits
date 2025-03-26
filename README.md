@@ -1,29 +1,29 @@
 # Auto Claim Merits Bot
 
 ## 📌 Deskripsi
-Auto claim merits 
+Auto claim merits blockscout
 
 ## 🚀 Cara Penggunaan
 
-### 1️⃣ Instalasi
+###  Instalasi
 Pastikan Anda memiliki **Node.js** terinstal di sistem Anda.
 
-```sh
-# Clone repository 
+```bash
 git clone https://github.com/your-repo/auto-claim-merits.git
 cd auto-claim-merits
+```
 
-# Install dependencies
+```bash
 npm install
 ```
 
-### 2️⃣ Konfigurasi
+###  Konfigurasi
 1. **Masukkan Bearer Token:**
-   - Buka file `data.txt`.
+   - Buka file `data.txt`. nano data.txt
    - Masukkan **Bearer Token** Anda di dalam file tersebut (tanpa tanda kutip).
 
 2. **Jalankan bot:**
-```sh
+```bash
 node index.js
 ```
 
@@ -34,7 +34,7 @@ node index.js
 ✅ Menunggu sebelum klaim berikutnya.<br>
 ❌ Not support for multiple acc.<br>
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 ❗ **Error 401 (Unauthorized)?**<br>
 - Pastikan **Bearer Token** yang dimasukkan di `data.txt` valid.
 - Jika token expired, ganti dengan yang baru.
